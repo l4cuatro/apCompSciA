@@ -77,7 +77,7 @@ public class Main {
   setAvg(0, (getAvgs(0) / 3.0));
   setAvg(1, (getFocusRate(0) + getFocusRate(1)) / 2.0);
   setAvg(2, (avgs[0] * avgWts[0]) + (avgs[1] * avgWts[1]) + (criticRev * avgWts[2]));
-  System.out.println("Average website rating: " + Math.avgs[0]);
+  System.out.println("Average website rating: " + avgs[0]);
   System.out.println("Average focus group rating: " + avgs[1]);
   System.out.println("Average movie critic rating: " + criticRev);
   System.out.println("Overall movie rating: " + avgs[2]);
