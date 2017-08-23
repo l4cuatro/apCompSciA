@@ -21,14 +21,14 @@ class GradeCalc {
     int sum = 0;
     for(int i = 0; i < vals.length; i++)
       sum += vals[i];
-    return (double)(sum / vals.length);
+    return (double)(1.0 * sum / vals.length);
   }
   
   static private double calcAvg(double[] vals) {
     double sum = 0;
     for(int i = 0; i < vals.length; i++)
       sum += vals[i];
-    return (double)(sum / vals.length);
+    return (double)(1.0 * sum / vals.length);
   }
   
   public static void main(String[] args) {
